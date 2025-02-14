@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Welcome
+This website is dedicated to explaining in detail the Blender and Unreal Engine 5 workflow. It will provide
+answers to common gotchas and frequently asked questions.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Go from this:
 
-## Commands
+<img src="/blender_example.png" width="220" />
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+to this:
 
-## Project layout
+<img src="/ue5_example.png" width="220" /> 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+to this:
+
+<video width="400" autoplay loop muted>
+<source src="anim_example.mp4" type="video/mp4">
+</video>
