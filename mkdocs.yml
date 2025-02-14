@@ -89,3 +89,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Blender:
+    - Creating a Mesh: blender/creating_mesh.md
+    - Materials: blender/materials.md
+    - Creating an Armature: blender/creating_armature.md
+    - Weight Painting: blender/weight_painting.md
+    - Export Settings: blender/export_settings.md
+  - Unreal Engine 5:
+    - Control Rig: ue5/control_rig.md
+    - Animating with Control Rig: ue5/animating.md
