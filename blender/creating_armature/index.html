@@ -408,6 +408,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Creating an Armature
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -418,6 +430,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-armature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create the Armature
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-the-bones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make the Bones
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -593,6 +642,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-the-armature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create the Armature
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-the-bones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make the Bones
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -608,7 +683,28 @@
 
 
 <h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
-<p>TODO</p>
+<p>Creating an armature for your model allows the mesh to move. It uses <code>bones</code> that are parented
+to each other in order to move the mesh.</p>
+<h2 id="create-the-armature">Create the Armature<a class="headerlink" href="#create-the-armature" title="Permanent link">&para;</a></h2>
+<p><code>Shift+A</code> to open the add menu. <code>Armature</code> to add an armature to the scene. </p>
+<p><img alt="add" src="../assets/images/mesh_add_armature.png" /></p>
+<p>Once it's added, move it to the top level of the <code>Scene</code> so you your collection and armature separate.</p>
+<p><img alt="separate" src="../assets/images/mesh_armature_menu.png" /></p>
+<h2 id="make-the-bones">Make the Bones<a class="headerlink" href="#make-the-bones" title="Permanent link">&para;</a></h2>
+<p>Now we add bones to the armature where bones would exist in the mesh. When you create an armature
+it will create a single bone where you cursor is currently.</p>
+<details class="tip" open="open">
+<summary>Bones in Front</summary>
+<p>Enable the <code>In Front</code> option under <code>Data -&gt; Viewport Display</code> so that the bones are always
+displayed in front of the mesh. </p>
+<p><img alt="bones_in_front" src="../assets/images/mesh_bones_in_front.png" /></p>
+</details>
+<details class="tip" open="open">
+<summary>Symmetrize</summary>
+<p>You only need to make bones on the <code>+Y</code> side of the mesh. You can mirror the bones across the <code>X</code> axis
+in the Bone <code>Edit Mode</code> under <code>Armature -&gt; Symmetrize</code>.</p>
+<p><img alt="symmetrize" src="../assets/images/mesh_bone_symmetrize.png" /></p>
+</details>
 
 
 
