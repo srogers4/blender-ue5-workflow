@@ -7,7 +7,7 @@ UE5 uses `cm` for its Unit Scale. Change the `Unit Scale` to `0.01` in Blender i
 ![units](assets/images/mesh_units.png)
 
 ## Model Direction
-Rotate your model so that it is facing in the `-Y` direction. This will make it so it is facing the correct
-direction when imported into UE5.
+Rotate your model so that it is facing in the `-Y` direction. This will make it so it is facing the
+correct direction when imported into UE5.
 
-![direction](assets/images/mesh_direction.png)
+![units](assets/images/mesh_direction.png)

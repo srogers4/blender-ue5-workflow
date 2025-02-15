@@ -1,7 +1,16 @@
 # Overview
 These are the settings to use when exporting a Blender model to Unreal Engine 5. Export to `FBX`.
 
+## Before Exporting
+Before exporting the 3D Model, apply the transform.
+
+Press `Ctrl+A` and select `All Transforms`.
+
+![transform](assets/images/export_apply_transform.png)
+
 ## Open Export Menu
+Now we are ready to export the 3D Model to UE5! Open the Export Menu.
+
 ![open](assets/images/export_open.png)
 
 ## Include
