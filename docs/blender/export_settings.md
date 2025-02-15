@@ -2,7 +2,7 @@
 These are the settings to use when exporting a Blender model to Unreal Engine 5. Export to `FBX`.
 
 ## Open Export Menu
-![include](assets/images/export_open.png)
+![open](assets/images/export_open.png)
 
 ## Include
 What from Blender to include in the export.
@@ -26,11 +26,11 @@ forward, and `z` axis for up.
 Change the smoothing from `Normals` to `Face`. This clears up a bunch of smoothing warnings in Unreal
 when importing the `FBX` model.
 
-![transform](assets/images/export_geometry.png)
+![geometry](assets/images/export_geometry.png)
 
 ## Armature
 
-![transform](assets/images/export_armature.png)
+![armature](assets/images/export_armature.png)
 
 ## Conclusion
 Once the `FBX` is exported, it is ready to be imported into Unreal Engine 5.

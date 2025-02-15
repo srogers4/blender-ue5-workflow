@@ -4,11 +4,11 @@ answers to common gotchas and frequently asked questions.
 
 Go from this:
 
-<img src="/blender_example.png" width="220" />
+<img src="blender_example.png" width="220" />
 
 to this:
 
-<img src="/ue5_example.png" width="220" /> 
+<img src="ue5_example.png" width="220" /> 
 
 to this:
 
