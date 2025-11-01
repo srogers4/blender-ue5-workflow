@@ -88,6 +88,10 @@ the vertices for a specific bone.
 Once all of the vertices have been assigned to the propert Vertex Groups, you can test it out by
 going to bone `Pose Mode` and moving or rotating a bone.
 
+!!! warning
+    Make sure that the Transform Pivot Point is set to Bounding Box Center.
+    ![pivot](assets/images/mesh_pivot_point.png)
+
 ![pose](assets/images/mesh_pose_mode.png)
 
 !!! note
